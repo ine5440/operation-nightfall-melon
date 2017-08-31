@@ -36,7 +36,7 @@ int main (int argc, char *argv[]){
     multiply (A, B, C, side);
 
     /* Simple output check */
-    printf("C[0][0] = %6.2f\n",C[0]);
+    //printf("C[0][0] = %6.2f\n",C[0]);
 
     /* Matrix deallocation */
     deallocate(&A, &B, &C);
